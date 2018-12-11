@@ -1,0 +1,12 @@
+#!/bin/bash
+
+myType=$1
+myDirName=$2
+myArchName=$3
+
+mkdir $myDirName
+find ~ -iname "*.$myType" -perm /a=x -exec cp {} ./$myDirName/ \;
+tar -cf "$myArchName.tar" $myDirName
+rm -r $myDirName
+
+echo "Done"
