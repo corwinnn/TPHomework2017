@@ -1,1 +1,1 @@
-# secondHomeWork
+# using google tests and patterns
