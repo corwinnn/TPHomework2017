@@ -1,1 +1,1 @@
-# firstHomeWork01
+# scripts practice
